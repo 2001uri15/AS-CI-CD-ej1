@@ -2,7 +2,7 @@ name: examen_workflow
 on:
   push:
     branches:
-      - nueva-caracteristica
+      - main
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
